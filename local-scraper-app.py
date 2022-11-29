@@ -2,9 +2,9 @@ import requests
 import streamlit as st
 from bs4 import BeautifulSoup
 import pandas as pd
-from annotated_text import annotated_text
 from latest_user_agents import get_random_user_agent
 ua = get_random_user_agent()
+
 st.set_page_config(page_title= 'Local.com Scraper', page_icon=":man:")
 hide_menu = """
 <style>
